@@ -32,8 +32,4 @@ switch (command) {
         break;
     default:
         throw new Error(`Unknown command ${command}`);
-    }
-    default:
-        throw new Error(`Unknown command ${command}`);
-        
 }
